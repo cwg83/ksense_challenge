@@ -1,0 +1,70 @@
+html {
+    overflow-y: scroll;
+}
+
+.table-caption {
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#users, #posts {
+    border: 1px solid black;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 25px 0px;
+    width: 100%;
+}
+
+#users th, #posts th {
+    white-space: nowrap;
+    padding: 5px 20px;
+    text-align: left;
+}
+
+#users tr:nth-child(even), #posts tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#users td {
+    padding: 5px 20px;
+}
+
+#users td:nth-child(5) {
+    width: 100px;
+}
+
+#users td:nth-child(1), #posts td:nth-child(1) {
+    width: 75px;
+}
+
+#users td:nth-child(2), #posts td:nth-child(2) {
+    width: 200px;
+}
+
+#posts td {
+    padding: 5px 20px;
+}
+
+.posts-btn {
+    background-color: rgb(92, 219, 92);
+    border: none;
+    color: white;
+    padding: 5px 11px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 100px;
+    cursor: pointer;
+}
+
+.posts-btn:hover {
+    background-color: rgb(66, 158, 66);
+}
+.btn-clicked {
+    background-color: rgb(255, 0, 33);
+}
+.btn-clicked:hover {
+    background-color: rgb(156, 0, 20);
+}
